@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+.insta{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.insta .con{
+    border: 1px solid #bab7b7;
+    padding: 30px 30px;
+    width: 22%;
+    margin: 30px auto;
+}
+
+.insta .con .img1{
+    margin: 0 auto;
+    width: 250px;
+    margin-bottom: 8px;
+}
+
+.insta .con .img1 img{
+    width: 100%;
+}
+
+.con .up{
+    font-size: 16px;
+    color: #737373;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    align-content: center;
+}
+
+.con .in{
+    display: block;
+    margin: 18px auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #0095f6;
+    color: #fff;
+    border-radius: 10px;
+    padding: 2px 0;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease-out;
+}
+
+.con .in:hover{
+    background-color: #1877F2;
+}
+
+.con .in i{
+    margin-right: 4px;
+    font-size: 30px;
+    align-self: center;
+    color: #fff;
+}
+
+.con .in span{
+    vertical-align: baseline;
+}
+
+.con .or {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.con .or .line{
+    width: 150px;
+    background-color: #bab7b7;
+    height: 1px;
+
+}
+
+.con .or #or{
+    font-size: 16px;
+    font-weight: 500; 
+    color: #333;
+    padding: 0 12px;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #bab7b7;
+    margin-bottom: 10px;
+    background-color: #f8f6f6;
+    
+}
+
+form input::placeholder{
+    font-size: 14px;
+}
+
+form input:active{
+    outline: 1px solid #333;
+}
+
+
+
+.text .tx-1{
+    font-size: 14px;
+    text-align: center;
+    color: #737373;
+    padding: 10px 0;
+}
+
+
+.text .tx-1 a{
+    text-decoration: none;
+    color: #00376b;
+}
+
+.text .tx-2{
+    font-size: 14px;
+    text-align: center;
+    color: #737373;
+    padding: 10px 0;
+}
+
+
+.text .tx-2 a{
+    text-decoration: none;
+    color: #00376b;
+}
+
+.con .sign{
+    display: block;
+    margin: 18px auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #53bdeb;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 6px 0;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    cursor: auto;
+}
+
+.con .log{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.con .log a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.install{
+    padding: 20px 30px;
+    width: 23%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.install .log{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.install .load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.install .load img{
+    width: 140px;
+    margin-right: 20px;
+}
+
+.footer{
+    padding: 20px 30px;
+    text-align: center;
+
+}
+
+.footer .anchor{
+    padding: 0 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 120px;
+
+}
+
+.footer .anchor a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 16px;
+}
+
+
+.footer .comp{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.footer .comp select{
+    text-align: center;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    color: #737373;
+}
+
+.footer .comp p{
+    font-size: 16px;
+    color: #737373;
+}
+
+.footer .comp select, .footer .comp p{
+   margin-right: 20px;
+}
+
+/* .con .or::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    background-color: #bab7b7;
+
+} */
